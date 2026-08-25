@@ -14,5 +14,5 @@ jobs:
       - name: Run tests
         run: |
           pip install pytest
-          python -m pytest tests/ -v
+          python -m pytest tests/ -v --strict-markers -p no:cacheprovider
 
