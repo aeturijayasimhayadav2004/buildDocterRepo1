@@ -12,4 +12,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Run tests
-        run: python -m pytest tests/ -v
+        run: |
+          pip install pytest
+          python -m pytest tests/ -v
+
