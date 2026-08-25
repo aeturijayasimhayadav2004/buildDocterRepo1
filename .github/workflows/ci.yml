@@ -13,7 +13,7 @@ jobs:
           python-version: '3.11'
       - name: Run tests
         run: |
-          pip install pytest==999.999.999
+          pip install pytest==998.998.998
 
 
           python -m pytest tests/ -v --strict-markers -p no:cacheprovider
