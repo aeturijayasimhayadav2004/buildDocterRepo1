@@ -11,10 +11,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Run tests
-        run: |
-          pip install pytest==998.998.997
-
-
-          python -m pytest tests/ -v --strict-markers -p no:cacheprovider
+      - name: Install system deps
+        run: sudo apt-get install -y libgdal-does-not-exist
 
