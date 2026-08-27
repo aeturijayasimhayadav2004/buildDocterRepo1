@@ -1,4 +1,6 @@
-Phase 11 verification.
+Phase 11 verification, final.
 
-Second commit: the allowlist gate is CLOSED for this installation. Expected
-outcome is no diagnosis at all - no row, no comment, no model call.
+Third commit: the allowlist gate has been reopened and GITHUB_TOKEN has been
+deleted from both Render and .env. A diagnosis here proves the gate reopens
+without a redeploy, and that the pipeline runs with no personal access token
+anywhere in the system.
