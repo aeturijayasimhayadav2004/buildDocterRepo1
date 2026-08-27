@@ -1,1 +1,4 @@
-Phase 11 verification: first diagnosis produced through a GitHub App installation token rather than a personal access token.
+Phase 11 verification.
+
+Second commit: the allowlist gate is CLOSED for this installation. Expected
+outcome is no diagnosis at all - no row, no comment, no model call.
